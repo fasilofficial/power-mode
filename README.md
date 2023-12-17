@@ -18,7 +18,7 @@ You can change the number if you want (Given line executes the script every 5 mi
 5. Save the file and exit
 6. Finally, to check if the cron job is added successfully, run the following command
 ```
-sudo crontab -u root -l
+sudo crontab -u root -l | tail -n 1
 ```
 If you see the cron job task you added on the terminal, you did it!
 
